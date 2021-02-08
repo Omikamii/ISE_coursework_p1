@@ -16,3 +16,28 @@ Functional Requirements
 
 
 Non-functional Requirements
+Operational:
+ -getCaseStatus(caseCode:int) : String, Obtains a human readable, HTML formatted status of the specified case(M)
+ -referCase(case: MisconductCase) : int, Returns the SCO code for the case referred(M)
+ -getPreviousOffences(studentNumber: int) : int ,Returns the number of previous offences of the specified student(M)
+
+Development:
+ -Java will be used for the backend and mySQL for the database(S)
+ -System to be developed by 24th March 2021 10am(M)
+ 
+Regulatory:
+ -Following different data transmission protocols, such as HTTP, HTTPS,TCP,UDP and IEEE etc(S)
+ -follows the code of conduct given by the BCS(British computer society) (M)
+
+Security:
+ -Log each operation performed by users and it's time stamp(C)
+ -backup storage of data to prevent data loss(S)
+ -use of virus detection software to reject malicious packages(S)
+
+Maintainability:
+ -able to update new versions of the software to fix bugs(M)
+ -All users can report bugs(S)
+
+Ethical:
+ -Privacy and Anonymity of the users(M)
+ -The system should only allow relative members to view the data stored(M)

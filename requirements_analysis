@@ -17,8 +17,35 @@ Email Server
 
 Functional Requirements
 
-
+(Second half of functional reqs)
+ - The AM team can send details of interview (like date and time) to the module leader (S) 
+ - Student can confirm invitation (M)
+ - Notify the AM misconduct team if the student has confirmed the interview attendance (S) 
+ - AM team can check whether the student has confirmed their attendance of the interview (S)
+ - AM team can add a summary of the interview to the case details. The summary of the interview can include the result which is either: no case, poor academic practice, misconduct or referral to SCO (M)
+ - AM team can send an email containing the summary of the interview to the relevant student (M) 
+ - AM team can set a deadline for student to complete relevant forms (5 days) (S)
+ - In the case that the student has not completed the form, the system immediately notifies the PS team (M)
+ - AM team can resend form to student (C)
+ - Student can fill in form (M)
+ - System notifies AM team when student has filled in form (S)
+ - AM team can view the form (S)
+ - AM team can send form to Professional Services Team (M)
+ - Professional services team can send a copy of signed form to student, module leader and SCO (M)
+ - AM team can close a case (M)
+ - AM team can drop a case (M)
+ - AM team can forward case to SCO (M)
+ - SCO can send an email to module leader (M) 
+ - AM team can complete referral form (M)
+ - AM team can send case/referral form to SCA (M)
+ - SCA can schedule a hearing (S)
+ - SCA can send an email containing outcome of case to the PS team and SCO (M) 
+ - PS team can register a case (M)
+ - SCO can record a case on their records (M)
+ - SCO can close a case (M)
+ 
 Non-functional Requirements
+
 Operational:
  -getCaseStatus(caseCode:int) : String, Obtains a human readable, HTML formatted status of the specified case(M)
  -referCase(case: MisconductCase) : int, Returns the SCO code for the case referred(M)

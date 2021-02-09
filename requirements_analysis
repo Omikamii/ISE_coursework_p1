@@ -36,7 +36,7 @@ Functional Requirements
  - AM team can forward case to SCO (M)
  - SCO can send an email to module leader (M) 
  - AM team can complete referral form (M)
- - AM team can send case/referral form to SCA (M)
+ - SCO can send case/referral form to SCA (M)
  - SCA can schedule a hearing (S)
  - SCA can send an email containing outcome of case to the PS team and SCO (M) 
  - PS team can register a case (M)

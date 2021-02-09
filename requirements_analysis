@@ -15,7 +15,6 @@ Backup system
 Email server
 
 Functional Requirements
-(first half of functional reqs)
 
  - Each staff member is uniquely identified by a staff ID number.(M)
  - Every action should be logged with timestamps and ID of person who performed it.(M)
@@ -34,13 +33,9 @@ Functional Requirements
  - SCO can delete offences from student's record (S)
  - AM team can send an invitation to the relevant student (S)
  - AM team can schedule an interview with the module Leader and member of the misconduct team with at least 7 days notice (S)
- - AM team can input the following details for the interview: The ID of module leader, the ID of AM team member, the ID of student, the date of the interview and the type of interview which can be either: Local Academic Misconduct Procedure (LAMP) OR An investigatory interview.
-(M)
+ - AM team can input the following details for the interview: The ID of module leader, the ID of AM team member, the ID of student, the date of the interview and the type of interview which can be either: Local Academic Misconduct Procedure (LAMP) OR An investigatory interview. (M)
  - The AM team can send an interview invitation to student. (M)
  - The AM team can send details of interview (like date and time) to the member of the AM team who will be attending. (S)
-
- 
-(Second half of functional reqs)
  - The AM team can send details of interview (like date and time) to the module leader (S) 
  - Student can confirm invitation (M)
  - Notify the AM misconduct team if the student has confirmed the interview attendance (S) 

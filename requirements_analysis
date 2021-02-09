@@ -70,3 +70,37 @@ Maintainability:
 Ethical:
  -Privacy and Anonymity of the users(M)
  -The system should only allow relative members to view the data stored(M)
+ 
+ Product requirement:
+
+-The system acts as a single and standardized system for ATOM university to control any academic misconduct by its students. The system is as flexible as possible due to the dynamic nature of the purpose. (M)
+-The system will be an interactive transactional based system. (M)
+
+Space requirement:
+
+-The system efficiently can store information of all students including specific program they are enrolled in, each module code, a title, module leader, lecturers, number of credits and information of all staff. (M)
+-Database size will not exceed 500MB. (C)
+
+Performance and Scalability:
+
+-0.3 seconds for the system to respond to the user. (S)
+-Each page should load within 1 second when the number of users on the system at the same time is above 1000 (S)
+-The system can have multiple users using the system for various requests at the same time (S)
+
+Usability:
+
+-User friendly interface that staff can easily interact with. (S)
+-Users will be able to use all system functions after 1 hour of training. (C)
+
+Stability/Dependability:
+
+-Failure rate should be below 5%. (C)
+-The failure rate and efficiency should be consistent over a long period of time. (S)
+-High performance and responsiveness at peak time. (C)
+-The system must be available to all users during normal working hours (Mon-Fri, 7:00-19:00). (M)
+-System should take no longer than 5 minutes to restart after failure. (C)
+
+Environmental:
+
+-Able to run on most types of browsers such as: Chrome and Firefox. (M)
+-Should be compatible with ATOMs University’s operating systems (may include Linux, Windows, MacOS). (M)

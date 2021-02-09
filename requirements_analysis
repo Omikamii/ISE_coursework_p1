@@ -15,7 +15,31 @@ Backup system
 Email server
 
 Functional Requirements
+(first half of functional reqs)
 
+ - Each staff member is uniquely identified by a staff ID number.(M)
+ - Every action should be logged with timestamps and ID of person who performed it.(M)
+ - Module Leader or Lecturer can report a case of academic misconduct.(M)
+ - Module leader/lecturer can input Information about the misconduct into the application: Module code, academic year, term Student number, name and email Type of misconduct Title of assessment affected % of marks that affects the total mark of the module Anonymized evidence. (M)
+ - All cases submitted by module leaders or lecturers are sent to the AM team. (M)
+ - Member of AM team can check programme of student (S)
+ - Relevant stakeholders such as the AM team can check the status of the Misconduct case. (S)
+ - Members of the AM team can view a list of all cases submitted by module leaders/lecturers across all departments (M)
+ - Members of the AM team can view a list of all cases submitted by module leaders/lecturers in their own home department. (M)
+ - Member of AM team can forward case to the home department AM team (M)
+ - System notifies AM team every time a case is forwarded to them (S)
+ - AM can send a request to SCO for all records of previous offences for that specific student (S)
+ - SCO can view all previous offences (if any) for each student in ATOM University. (S)
+ - SCO can add offences to student's record (S)
+ - SCO can delete offences from student's record (S)
+ - AM team can send an invitation to the relevant student (S)
+ - AM team can schedule an interview with the module Leader and member of the misconduct team with at least 7 days notice (S)
+ - AM team can input the following details for the interview: The ID of module leader, the ID of AM team member, the ID of student, the date of the interview and the type of interview which can be either: Local Academic Misconduct Procedure (LAMP) OR An investigatory interview.
+(M)
+ - The AM team can send an interview invitation to student. (M)
+ - The AM team can send details of interview (like date and time) to the member of the AM team who will be attending. (S)
+
+ 
 (Second half of functional reqs)
  - The AM team can send details of interview (like date and time) to the module leader (S) 
  - Student can confirm invitation (M)

@@ -3,7 +3,6 @@ Stakeholders & Actors
 Module Leader
 Lecturer
 SCO
-SCA
 Student
 Academic Misconduct Teams (for each department)
 Professional Services Team
@@ -55,9 +54,9 @@ Functional Requirements
  - AM team can forward case to SCO (M)
  - SCO can send an email to module leader (M) 
  - AM team can complete referral form (M)
- - SCO can send case/referral form to SCA (M)
- - SCA can schedule a hearing (S)
- - SCA can send an email containing outcome of case to the PS team and SCO (M) 
+ - AM team can send case/referral form to SCO (M)
+ - SCO can schedule a hearing (S)
+ - SCO can send an email containing outcome of case to the PS team (M) 
  - PS team can register a case (M)
  - SCO can record a case on their records (M)
  - SCO can close a case (M)
